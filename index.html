@@ -1,0 +1,88 @@
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Greg's Portfolio</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/customindex.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+</head>
+
+<body>
+  <div id="topbar">
+  <a href="http://designshack.net">Back to Design Shack</a>
+  </div>
+  
+  <div id="w">
+    <div id="content">
+      <nav id="stickynav">
+        <ul id="nav" class="clearfix">
+          <li><a href="#topbar">Homepage</a></li>
+          <li><a href="#portfolio">About</a></li>
+          <li><a href="#about">Photos</a></li>
+          <li><a href="#questions">Questions</a></li>
+          <li><a href="#hire">Hire!</a></li>
+        </ul>
+      </nav>
+      <h1>Single-Page Sliding Effect</h1>
+      
+      
+      
+      <section id="portfolio" class="section">
+      <h2>Portfolio</h2>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat libero quis aliquam finibus. Praesent sit amet risus volutpat, efficitur justo nec, sollicitudin mi. Pellentesque ut vehicula eros. Pellentesque ullamcorper rutrum quam ac interdum. Vestibulum sit amet faucibus felis, sed porttitor est. Curabitur pharetra elit lectus, vel egestas ex ullamcorper et. Proin quis sodales justo. Nam faucibus sapien vitae elit viverra faucibus. Fusce eu odio ut justo pulvinar tempor sit amet quis elit.</p>
+      
+        
+      </section>
+      
+      
+      
+      <section id="about" class="section">
+      <h2>Some Photos</h2>
+      
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin vitae elit sit amet sagittis. Vivamus eu tortor sit amet enim posuere efficitur. Integer vitae viverra elit. Cras in nibh urna. Suspendisse consectetur quam vel lectus pellentesque ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus imperdiet mi quam, vitae ornare purus mattis eget. In metus nulla, elementum sit amet laoreet et, scelerisque in odio. Vivamus mi dui, ultrices quis neque vehicula, posuere sodales mi. Pellentesque et euismod nisi. Fusce volutpat semper neque, ut placerat magna bibendum et. Pellentesque sed elit at tellus consectetur sagittis et sed tellus. Cras nec condimentum turpis. Quisque arcu diam, aliquam ac bibendum in, tincidunt eget mi. Fusce finibus nulla justo, eget luctus elit dapibus nec. Maecenas placerat iaculis facilisis.</p>
+      </section>
+      
+      <section id="questions" class="section">
+      <h2>Contact</h2>
+      <p>Phasellus posuere massa lectus. Praesent ac mollis felis. Donec euismod risus vitae purus accumsan pellentesque. Proin aliquam, elit et vulputate condimentum, eros urna iaculis dolor, at tempor sapien nisl et sem. Integer venenatis arcu in est sollicitudin efficitur. Nam dictum tristique lorem, non volutpat lectus elementum in. Aenean vel erat porttitor, hendrerit ligula nec, finibus purus. Aliquam at lobortis nunc. Phasellus vel dolor sagittis, dictum sem a, condimentum tortor. Ut tortor lectus, ultricies ac purus at, volutpat pulvinar felis. Proin arcu velit, viverra in lorem et, vestibulum interdum est. Donec mattis dictum nisi id vulputate. Sed maximus ex in libero eleifend, eget lacinia urna vulputate.</p>
+      
+      <form method="post" action="#">
+        <input type="text" class="basic" placeholder="Name...">
+        
+        <input type="text" class="basic" placeholder="E-mail...">
+        
+        <textarea class="basictxt"></textarea>
+      </form>
+      <br><br><br>
+      </section>
+
+      <section id="hire" class="section">
+
+      </div>
+           <br><br><br><br><br><br> 
+    </div>
+  </div>
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
