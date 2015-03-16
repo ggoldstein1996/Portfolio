@@ -11,71 +11,205 @@
         <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 </head>
 
-<body>
-  <div id="topbar">
-  <a href="http://designshack.net">Back to Design Shack</a>
-  </div>
-  
-  <div id="w">
-    <div id="content">
-      <nav id="stickynav">
-        <ul id="nav" class="clearfix">
-          <li><a href="#topbar">Homepage</a></li>
-          <li><a href="#portfolio">About</a></li>
-          <li><a href="#about">Photos</a></li>
-          <li><a href="#questions">Questions</a></li>
-          <li><a href="#hire">Hire!</a></li>
-        </ul>
-      </nav>
-      <h1>Single-Page Sliding Effect</h1>
-      
-      
-      
-      <section id="portfolio" class="section">
-      <h2>Portfolio</h2>
-      
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat libero quis aliquam finibus. Praesent sit amet risus volutpat, efficitur justo nec, sollicitudin mi. Pellentesque ut vehicula eros. Pellentesque ullamcorper rutrum quam ac interdum. Vestibulum sit amet faucibus felis, sed porttitor est. Curabitur pharetra elit lectus, vel egestas ex ullamcorper et. Proin quis sodales justo. Nam faucibus sapien vitae elit viverra faucibus. Fusce eu odio ut justo pulvinar tempor sit amet quis elit.</p>
-      
-        
-      </section>
-      
-      
-      
-      <section id="about" class="section">
-      <h2>Some Photos</h2>
-      
-      
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin vitae elit sit amet sagittis. Vivamus eu tortor sit amet enim posuere efficitur. Integer vitae viverra elit. Cras in nibh urna. Suspendisse consectetur quam vel lectus pellentesque ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus imperdiet mi quam, vitae ornare purus mattis eget. In metus nulla, elementum sit amet laoreet et, scelerisque in odio. Vivamus mi dui, ultrices quis neque vehicula, posuere sodales mi. Pellentesque et euismod nisi. Fusce volutpat semper neque, ut placerat magna bibendum et. Pellentesque sed elit at tellus consectetur sagittis et sed tellus. Cras nec condimentum turpis. Quisque arcu diam, aliquam ac bibendum in, tincidunt eget mi. Fusce finibus nulla justo, eget luctus elit dapibus nec. Maecenas placerat iaculis facilisis.</p>
-      </section>
-      
-      <section id="questions" class="section">
-      <h2>Contact</h2>
-      <p>Phasellus posuere massa lectus. Praesent ac mollis felis. Donec euismod risus vitae purus accumsan pellentesque. Proin aliquam, elit et vulputate condimentum, eros urna iaculis dolor, at tempor sapien nisl et sem. Integer venenatis arcu in est sollicitudin efficitur. Nam dictum tristique lorem, non volutpat lectus elementum in. Aenean vel erat porttitor, hendrerit ligula nec, finibus purus. Aliquam at lobortis nunc. Phasellus vel dolor sagittis, dictum sem a, condimentum tortor. Ut tortor lectus, ultricies ac purus at, volutpat pulvinar felis. Proin arcu velit, viverra in lorem et, vestibulum interdum est. Donec mattis dictum nisi id vulputate. Sed maximus ex in libero eleifend, eget lacinia urna vulputate.</p>
-      
-      <form method="post" action="#">
-        <input type="text" class="basic" placeholder="Name...">
-        
-        <input type="text" class="basic" placeholder="E-mail...">
-        
-        <textarea class="basictxt"></textarea>
-      </form>
-      <br><br><br>
-      </section>
+<body id="page-top" class="index">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Greg Goldstein</a>
+            </div>
 
-      <section id="hire" class="section">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#questions">Questions</a>
+                    </li>
+                    <li>
+                        <a href="#hire">Hire!</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="http://imgur.com/h9hK9IG"><img src="http://i.imgur.com/h9hK9IG.png" title="source: imgur.com" /></a>
+                    <div class="intro-text">
+                        <span class="name">Greg Goldstein</span>
+                        <hr class="star-light">
+                        <span class="skills">Wilderness First Aid - Loan Operations - Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-      </div>
-           <br><br><br><br><br><br> 
-    </div>
-  </div>
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
+   <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+      
+          <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin vitae elit sit amet sagittis. Vivamus eu tortor sit amet enim posuere efficitur. Integer vitae viverra elit. Cras in nibh urna. Suspendisse consectetur quam vel lectus pellentesque ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus imperdiet mi quam, vitae ornare purus mattis eget. In metus nulla, elementum sit amet laoreet et, scelerisque in odio.Vivamus mi dui, ultrices quis neque vehicula, posuere sodales mi. Pellentesque et euismod nisi. Fusce volutpat semper neque, ut placerat magna bibendum et. Pellentesque sed elit at tellus consectetur sagittis et sed tellus. Cras nec condimentum turpis. Quisque arcu diam, aliquam ac bibendum in, tincidunt eget mi. Fusce finibus nulla justo, eget luctus elit dapibus nec. Maecenas placerat iaculis facilisis.</p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hire">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hire Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Job</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Hire</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
