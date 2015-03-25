@@ -8,11 +8,11 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/customindex.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 </head>
 
 <body id="page-top" class="index">
       <nav class="navbar navbar-default navbar-fixed-top">
+        <div class"navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -25,7 +25,6 @@
                 <a class="navbar-brand" href="#page-top">Greg Goldstein</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -42,25 +41,23 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="http://imgur.com/h9hK9IG"><img src="http://i.imgur.com/h9hK9IG.png" title="source: imgur.com" class="img-circle img-responsive"></a>
+                    <img src="http://i.imgur.com/h9hK9IG.png" title="source: imgur.com" class="img-circle img-responsive">
                     <div class="intro-text">
                         <span class="name">Greg Goldstein</span>
                         <hr class="star-light">
-                        <span class="skills">Writer - Wilderness Leader - Web Development</span>
+                        <span class="skills">Loan Operater - Lifeguard - Wilderness Leader - Web Developer</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
+</div>
    <section id="portfolio">
         <div class="container">
             <div class="row">
@@ -163,8 +160,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <!-- I used email form from http://ironsummitmedia.github.io/startbootstrap-freelancer/ -->
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -189,7 +185,7 @@
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Job</label>
+                                <label>Job and Price Range</label>
                                 <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -207,6 +203,229 @@
         </div>
     </section>
 
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wilderness Project Leader</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Nam eu elit eget dui laoreet consequat et et est. Aenean erat eros, venenatis at odio a, finibus tincidunt nisl.<a href="">Wilderness Project</a>. Nullam massa elit, condimentum et malesuada vel, porttitor in velit. Sed convallis ante id quam tincidunt iaculis. Vivamus in tellus fringilla, tincidunt dui eget, dictum odio.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href=""> Wilderness Project, Washington University in St. Louis</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">Spring and Summer 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Wilderness Leader</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Lifeguarding At PCC</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id magna ligula.<a href="">Lifeguarding</a>.Maecenas commodo auctor fringilla. In nec mattis libero. Vestibulum fermentum leo at nunc faucibus, ut ornare metus vehicula.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Philadelphia Cricket Club</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">Summer 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Lifeguarding</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Loan Operator</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Maecenas leo tortor, posuere et finibus id, lacinia ac nulla. Sed vulputate malesuada purus vitae rhoncus.<a href="">Loan Operation</a>. Praesent vel leo ornare, laoreet nisi ut, laoreet leo. Donec interdum mi lacus, non imperdiet metus ullamcorper sed.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Valley Green Bank</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">Summer 2012, 2013</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Electronic Ink Blog</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Nam et nunc est. Fusce maximus dapibus dolor, quis rhoncus lectus condimentum sed. Aenean nec congue nunc, vel interdum nisl.<a href="">Blog</a>.Maecenas vitae nibh faucibus, fringilla turpis eget, mollis lorem. Aenean et placerat nisl. Suspendisse hendrerit, nibh et venenatis malesuada, mi ligula efficitur dolor, ac interdum nunc nulla vitae augue. Cras facilisis volutpat tortor eget pellentesque.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Electronic Ink</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">January 2013</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Greg Goldstein's Resume</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Fusce vitae urna varius, lacinia urna nec, laoreet tortor. Donec tristique semper ante sed ullamcorper. Nam dictum augue vel imperdiet dapibus. Praesent vel leo ornare, laoreet nisi ut, laoreet leo. Donec interdum mi lacus, non imperdiet metus ullamcorper sed.<a href="...">Resume</a>.Donec condimentum ultricies viverra. Quisque aliquet pretium justo quis ultricies. Sed mattis massa in ante placerat consectetur. Vivamus et lorem tincidunt, lacinia eros et, porttitor nunc.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">Greg Goldstein</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>King's Garden Website</h2>
+                            <hr class="star-primary">
+                            <img src="http://placehold.it/250x250" class="img-responsive img-centered" alt="">
+                            <p>Ut sodales ipsum eu lectus euismod, imperdiet finibus nunc tempor. Suspendisse porttitor nunc ipsum, vel cursus elit facilisis porttitor. Suspendisse scelerisque ultrices nunc quis semper.<a href="...">Restaurant</a>. Etiam molestie eget odio eu faucibus. Vestibulum lacinia felis vel libero tempor, vitae iaculis velit porttitor. Phasellus vestibulum lacinia lacus sit amet ornare. Nam lacinia dapibus mauris et commodo. Nunc consequat risus ac elementum feugiat. Aenean blandit purus non urna finibus porttitor. Nam mollis nibh sit amet neque condimentum, ac feugiat velit maximus.</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="">King's Garden</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="">Spring 2015</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
@@ -215,5 +434,25 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+<!-- I GOT THE JAVASCRIPT FROM  http://ironsummitmedia.github.io/startbootstrap-freelancer/ -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
   </body>
 </html>
