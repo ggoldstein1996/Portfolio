@@ -40,24 +40,24 @@ body {text-align: center;}
     }
     .navbar-custom {
     color: #FFFFFF;
-    background-color: #CC3333;
+
 }
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2em;
-        background-color: #1D303F;
+  
 
 
     }
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        background-color: #1D303F;
+  
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-        background-color: #1D303F;
+ 
     }
 }
 
@@ -65,29 +65,28 @@ body {text-align: center;}
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    background-color: #1D303F;
+
 
 }
 
 .navbar a:focus {
     outline: 0;
-    background-color: #1D303F;
+
 }
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    background-color: #1D303F;
 }
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
-    background-color: #1D303F;
+
 }
 
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    background-color: #1D303F;
+
 }
 
 #portfolio .portfolio-item {
@@ -107,7 +106,7 @@ body {text-align: center;}
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: #881630;
+
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
