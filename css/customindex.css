@@ -1,22 +1,71 @@
-
+header {background-color: #EEDFCC}
 section {text-align: center;}
+
+body #lead {background-color: #EEDFCC;
+color: #881630;}
+body #work {background-color: #EEDFCC;
+color: #881630;}
+body #hire {background-color: #EEDFCC;
+color: #881630;}
+div .form-group {color: #1D303F; }
+input {color: #1D303F;}
+div .navigation {background-color: #1D303F}
+.navbar-default {border-color: #EEDFCC;}
 header {
     text-align: center;
     color: #881630;
 }
+header .skills {
+    color: #1D303F;
 
+}
+body .index {background-color: #881630;}
+body .placeholder {color: #EEDFCC; }
+body .form-control {color: #EEDFCC;}
+body .form-control input {color: #EEDFCC;}
+body #work .portfolio-item .portfolio-link .caption .caption-content {color: #EEDFCC;}
+body .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .open a {background-image: linear-gradient(to bottom,#1D303F 0,#1D303F 200%);}
+body #page-top .index {background-color: #881630;}
+body {background-color: #881630; }
+body .form {color: #EEDFCC;}
+textarea.form-control {color: #EEDFCC;}
+body .form-control input {color: #EEDFCC;}
+body .form-control {border: 1px solid #881630;
+background-color: #881630;}
+body .navbar-default .navbar-nav>li>a {color: #EEDFCC;}
+body .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #EEDFCC;}
+body .navbar-default .navbar-brand {color: #EEDFCC;}
+body .navbar-default .navbar-nav .active a {background-image: linear-gradient(to bottom,##EEDFCC 0,#EEDFCC 100%);}
+body .navbar-default .navbar-nav .open a {background-image: linear-gradient(to bottom,##EEDFCC 0,#EEDFCC 100%);}
+body .modal-content {background-color: #EEDFCC;}
+body .modal-body h2 {color: #881630;}
+body .modal-body p {color: #1D303F;}
+body .modal-body .btn-default {text-shadow: 0 1px 0 #881630; color: #EEDFCC;
+    background-image: linear-gradient(to bottom,#881630 0,#881630 100%);}
+body .navbar-default {color: #EEDFCC;
+    border-color: #EEDFCC;
+    background-image: linear-gradient(to bottom,#881630 0,#881630 100%);}
+body .btn-success {background-image: linear-gradient(to bottom,#881630 0,#881630 100%);
+border-color: #881630;
+color: #EEDFCC;}
+div .portfolio-modal {background-color: #EEDFCC;}
+nav .navigation {color: #881630}
+button .btn {background-color: #1D303F;
+color: #1D303F;}
 header .container {
     margin-top: 2%;
     padding-bottom: 4%;
 }
-
+section .me {color: #1D303F;}
+#contactForm {color: #1D303F;}
 header img {
     display: block;
     margin: 0 auto 20px;
     width: 503px;
     height: 390px;
 }
-
+div .portfolio-item { height: 250px;
+width: 250px;}
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -86,19 +135,21 @@ body {text-align: center;}
 
 }
 
-#portfolio .portfolio-item {
+#work .portfolio-item {
     right: 0;
+    left: 11%;
     margin: 0 0 15px;
+
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#work .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#work .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -109,11 +160,11 @@ body {text-align: center;}
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#work .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#work .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -124,21 +175,20 @@ body {text-align: center;}
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#work .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#work .portfolio-item .portfolio-link .caption .caption-content h3,
+#work .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#portfolio * {
+#work * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #work .portfolio-item {
         margin: 0 0 30px;
     }
-}
